@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Matusalen Alves - Desenvolvedor de Software (Java, Spring Boot, React, TypeScript)">
+  <title>matusalenalves@portfolio:~$</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Fraunces:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Scripts -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<div class="window">
+  <header class="titlebar">
+    <div class="dots">
+      <div class="dot dot-r"></div>
+      <div class="dot dot-y"></div>
+      <div class="dot dot-g"></div>
+    </div>
+    <div class="title-text">matusalenalves@portfolio: ~</div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" onclick="show('home', this)">~/home</button>
+    <button class="tab" onclick="show('experience', this)">~/experience</button>
+    <button class="tab" onclick="show('skills', this)">~/skills</button>
+    <button class="tab" onclick="show('projects', this)">~/projects</button>
+    <button class="tab" onclick="show('contact', this)">~/contact</button>
+  </nav>
+
+  <main class="terminal">
+
+    <!-- HOME -->
+    <section class="section active" id="home">
+      <div class="prompt">
+        <span class="prompt-user">matusalenalves</span><span class="prompt-at">@</span><span class="prompt-host">portfolio</span><span class="prompt-sep">:</span><span class="prompt-path">~</span><span class="prompt-dollar">$</span>
+        <span class="prompt-cmd">cat about.md</span>
+      </div>
+      <div class="output">
+        <h1 class="big-name">Matusalen <span>Alves</span></h1>
+        <div class="role-line">Desenvolvedor de Software</div>
+        <p class="bio">
+          Estudante de Análise e Desenvolvimento de Sistemas, interessado em
+          desenvolvimento backend, APIs e arquitetura de software.
+        </p>  
+      </div>
+      <div class="output">
+        <div class="comment">metadata</div>
+        <div class="kv-list">
+          <div class="kv"><span class="kv-key">location</span><span class="kv-eq">=</span><span class="kv-val">Piauí, Brasil</span></div>
+          <div class="kv"><span class="kv-key">experience</span><span class="kv-eq">=</span><span class="kv-val">&gt;1 ano</span></div>
+          <div class="kv"><span class="kv-key">stack</span><span class="kv-eq">=</span><span class="kv-val">Java · Spring Boot · React · TypeScript</span></div>
+          <div class="kv"><span class="kv-key">linkedin</span><span class="kv-eq">=</span><span class="kv-val"><a href="https://www.linkedin.com/in/matusalen-alves" target="_blank" rel="noopener noreferrer">linkedin.com/in/matusalen-alves</a></span></div>
+        </div>
+      </div>
+      <div class="actions">
+        <a href="mailto:matusalencalves@gmail.com" class="cmd-btn cmd-btn-primary">✉ get in touch</a>
+        <a href="Matusalen_Alves_CV.pdf" download="Matusalen_Alves_CV.pdf" class="cmd-btn cmd-btn-secondary">↓ download cv</a>
+        <a href="https://www.linkedin.com/in/matusalen-alves" target="_blank" rel="noopener noreferrer" class="cmd-btn cmd-btn-secondary">⇗ linkedin</a>
+      </div>
+      <div style="margin-top:32px; color: var(--dim); font-size: 12px;"><span class="prompt-dollar">$</span> <span class="blink"></span></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="prompt">
+        <span class="prompt-user">matusalenalves</span><span class="prompt-at">@</span><span class="prompt-host">portfolio</span><span class="prompt-sep">:</span><span class="prompt-path">~/experience</span><span class="prompt-dollar">$</span>
+        <span class="prompt-cmd">cat work_history.log</span>
+      </div>
+      <div class="exp-block">
+        <div class="exp-title-line">
+          <span class="exp-role">Desenvolvedor de Software</span>
+          <span class="exp-period">2026 - 2026</span>
+        </div>
+        <div class="exp-company">IPAAGS Digital · Remoto</div>
+        <ul class="exp-points">
+          <li>Desenvolvimento do backend da plataforma iPAAGS Digital, solução voltada à educação, inclusão escolar e cultura digital</li>
+          <li>Construção de uma REST API com Java e Spring Boot para disponibilização dos serviços e gerenciamento das funcionalidades da plataforma</li>
+          <li>Modelagem e persistência de dados utilizando PostgreSQL</li>
+          <li>Integração com o Supabase para autenticação e gerenciamento de usuários</li>
+          <li>Desenvolvimento de funcionalidades de suporte aos recursos educacionais e de inclusão da plataforma</li>
+        </ul>
+      </div>
+      <hr class="divider">
+      <div class="exp-block">
+        <div class="exp-title-line">
+          <span class="exp-role">Scrum Master &amp; Desenvolvedor</span>
+          <span class="exp-period">2025 - 2026</span>
+        </div>
+        <div class="exp-company">EmbarcaTech · IFPI</div>
+        <ul class="exp-points">
+          <li>Liderança da equipe como Scrum Master na concepção e planejamento de uma solução de cozinha inteligente no Restaurante Espaço Castanhola</li>
+          <li>Desenvolvimento de sistemas embarcados em C para monitoramento do fluxo de gás para detecção de vazamentos e do peso do botijão GLP</li>
+          <li>Auxílio na prototipação da protoboard e integração dos componentes do produto final</li>
+          <li>Desenvolvimento de uma landing page para agregação de dados e geração de insights para a empresa, como evolução do consumo de gás</li>
+          <li>Produção e publicação de 3 artigos científicos em simpósio nacionais e internacionais e 1 minicurso regional durante o programa</li>
+        </ul>
+      </div>
+      <div style="color: var(--dim); font-size: 12px; margin-top: 16px;">
+        <span class="prompt-dollar">$</span> <span class="blink"></span>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="prompt">
+        <span class="prompt-user">matusalenalves</span><span class="prompt-at">@</span><span class="prompt-host">portfolio</span><span class="prompt-sep">:</span><span class="prompt-path">~/skills</span><span class="prompt-dollar">$</span>
+        <span class="prompt-cmd">ls -la skills/</span>
+      </div>
+      <div class="skill-block">
+        <div class="skill-category">linguagens &amp; backend</div>
+        <div class="skill-tags">
+          <span class="stag stag-lang">Java</span>
+          <span class="stag stag-lang">TypeScript</span>
+          <span class="stag stag-lang">Python</span>
+          <span class="stag stag-lang">C</span>
+          <span class="stag stag-lang">Spring Boot</span>
+          <span class="stag stag-lang">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-category">frontend &amp; mobile</div>
+        <div class="skill-tags">
+          <span class="stag stag-cloud">React</span>
+          <span class="stag stag-cloud">React Native</span>
+          <span class="stag stag-cloud">HTML</span>
+          <span class="stag stag-cloud">CSS</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-category">bancos de dados &amp; serviços</div>
+        <div class="skill-tags">
+          <span class="stag stag-db">PostgreSQL</span>
+          <span class="stag stag-db">MongoDB</span>
+          <span class="stag stag-db">H2</span>
+          <span class="stag stag-db">Firebase</span>
+          <span class="stag stag-db">Supabase</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-category">arquitetura &amp; desenvolvimento</div>
+        <div class="skill-tags">
+          <span class="stag stag-devops">Spring Data JPA</span>
+          <span class="stag stag-devops">Hibernate</span>
+          <span class="stag stag-devops">Swagger</span>
+          <span class="stag stag-devops">DTOs</span>
+          <span class="stag stag-devops">Clean Architecture</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-category">ferramentas</div>
+        <div class="skill-tags">
+          <span class="stag stag-tools">Git</span>
+          <span class="stag stag-tools">GitHub</span>
+          <span class="stag stag-tools">Docker</span>
+          <span class="stag stag-tools">Postman</span>
+          <span class="stag stag-tools">IntelliJ IDEA</span>
+          <span class="stag stag-tools">VS Code</span>
+        </div>
+      </div>
+      <div style="color: var(--dim); font-size: 12px; margin-top: 16px;">
+        <span class="prompt-dollar">$</span> <span class="blink"></span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="prompt">
+        <span class="prompt-user">matusalenalves</span><span class="prompt-at">@</span><span class="prompt-host">portfolio</span><span class="prompt-sep">:</span><span class="prompt-path">~/projects</span><span class="prompt-dollar">$</span>
+        <span class="prompt-cmd">git log --oneline --all</span>
+      </div>
+      <div class="project-block" data-num="project/01">
+        <div class="project-name">API de Livraria</div>
+        <p class="project-desc">
+          API REST para gerenciamento de uma livraria, com autenticação e autorização
+          utilizando JWT, persistência de dados e organização em camadas.
+        </p>
+        <div class="project-stack">
+          <span class="stack-chip">Java</span>
+          <span class="stack-chip">Spring Boot</span>
+          <span class="stack-chip">JWT</span>
+          <span class="stack-chip">REST API</span>
+        </div>
+      </div>
+      <div class="project-block" data-num="project/02">
+        <div class="project-name">Vitta</div>
+        <p class="project-desc">
+          Aplicação mobile para gerenciamento de consultas entre pacientes e
+          nutricionistas, com autenticação, persistência de dados e notificações push.
+        </p>
+        <div class="project-stack">
+          <span class="stack-chip">React Native</span>
+          <span class="stack-chip">Firebase</span>
+          <span class="stack-chip">JavaScript</span>
+          <span class="stack-chip">Mobile</span>
+        </div>
+      </div>
+      <div class="project-block" data-num="project/03">
+        <div class="project-name">Dining Hall Flow Simulator</div>
+        <p class="project-desc">
+          Sistema de simulação de fluxo de refeitório desenvolvido como projeto
+          acadêmico para as disciplinas de Programação Orientada a Objetos e
+          Engenharia de Software.
+        </p>
+        <div class="project-stack">
+          <span class="stack-chip">TypeScript</span>
+          <span class="stack-chip">POO</span>
+          <span class="stack-chip">Clean Architecture</span>
+          <span class="stack-chip">Software Engineering</span>
+        </div>
+      </div>
+      <div class="project-block" data-num="project/04">
+        <div class="project-name">Ligeirinho</div>
+        <p class="project-desc">
+          Jogo de reflexo desenvolvido com a placa BitDogLab, explorando
+          programação de sistemas embarcados e interação com LEDs, botões,
+          buzzer e display OLED.
+        </p>
+        <div class="project-stack">
+          <span class="stack-chip">C</span>
+          <span class="stack-chip">RP2040</span>
+          <span class="stack-chip">BitDogLab</span>
+          <span class="stack-chip">Embedded Systems</span>
+        </div>
+      </div>
+      <div style="color: var(--dim); font-size: 12px; margin-top: 16px;">
+        <span class="prompt-dollar">$</span> <span class="blink"></span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="prompt">
+        <span class="prompt-user">matusalenalves</span><span class="prompt-at">@</span><span class="prompt-host">portfolio</span><span class="prompt-sep">:</span><span class="prompt-path">~/contact</span><span class="prompt-dollar">$</span>
+        <span class="prompt-cmd">cat contact.json</span>
+      </div>
+      <div class="output" style="margin-bottom:32px;">
+        <div class="contact-line"><span class="c-icon">✉</span><span class="c-label">email</span><span class="c-val"><a href="mailto:matusalencalves@gmail.com">matusalencalves@gmail.com</a></span></div>
+        <div class="contact-line"><span class="c-icon">☏</span><span class="c-label">phone</span><span class="c-val"><a href="tel:+5586994453829">+55 (86) 99445-3829</a></span></div>
+        <div class="contact-line"><span class="c-icon">⇗</span><span class="c-label">linkedin</span><span class="c-val"><a href="https://www.linkedin.com/in/matusalen-alves/" target="_blank" rel="noopener noreferrer">linkedin.com/in/matusalen-alves</a></span></div>
+        <div class="contact-line"><span class="c-icon">◎</span><span class="c-label">location</span><span class="c-val">Piauí, Brasil</span></div>
+      </div>
+      <div class="comment">certificações &amp; educação</div>
+      <div class="cert-line">
+        <span class="cert-badge">CERT</span>
+        <div><div class="cert-name">Java COMPLETO Programação Orientada a Objetos (SpringBoot + PostgreSQL + MongoDB) (UC-c7d)</div><div class="cert-detail">DevSuperior</div></div>
+      </div>
+      <div class="cert-line">
+        <span class="cert-badge">CERT</span>
+        <div><div class="cert-name">Algoritmos e Lógica de Programação (UC-bdd)</div><div class="cert-detail">DevSuperior</div></div>
+      </div>
+      <div class="cert-line">
+        <span class="cert-badge">EDU</span>
+        <div><div class="cert-name">Tecnólogo — Análise e Desenvolvimento de Sistemas</div><div class="cert-detail">Instituto Federal de Educação, Ciência e Tecnologia do Piauí · 2024–2027</div></div>
+      </div>
+      <div style="margin-top: 28px;">
+        <a href="Matusalen_Alves_CV.pdf" download="Matusalen_Alves_CV.pdf" class="cmd-btn cmd-btn-primary">↓ download cv</a>
+      </div>
+      <div style="color: var(--dim); font-size: 12px; margin-top: 24px;"><span class="prompt-dollar">$</span> <span class="blink"></span></div>
+    </section>
+
+  </main>
+
+  <footer class="statusbar">
+    <span id="status-mode">NORMAL</span>
+    <span id="status-file">home</span>
+    <span>Java · Spring Boot · React · TypeScript</span>
+  </footer>
+</div>
+
+</body>
+</html>
