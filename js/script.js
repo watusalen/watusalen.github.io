@@ -9,6 +9,7 @@ function show(id, tabElement) {
   
   if (tabElement) {
     tabElement.classList.add('active');
+    tabElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
   }
 
   const statusFile = document.getElementById('status-file');
